@@ -17,7 +17,7 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<u>Here is the results 👇\n\nPowered By </u> <b><I>@CyniteBackup</I></b>\n\n"
+    head    = "<u>𝐇𝐞𝐫𝐞 𝐈𝐬 𝐲𝐨𝐮𝐫 𝐑𝐞𝐬𝐮𝐥𝐭𝐬 👇\n\n𝐒𝐞𝐚𝐫𝐜𝐡𝐞𝐝 𝐁𝐲 </u> <b><I>@Post_Finder_Ro_Bot</I></b>\n\n"
     results = ""
     try:
        for channel in channels:
