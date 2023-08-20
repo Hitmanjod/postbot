@@ -17,7 +17,7 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<u>Here is the results 👇\n\nPowered By </u> <b><I>@CyniteBackup</I></b>\n\n"
+    head    = "<u>ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ʀᴇꜱᴜʟᴛꜱ 👇\n\ᴘᴏᴡᴇʀᴇᴅ ʙʏ </u> <b><I>@Post_Finder_Ro_Bot</I></b>\n\n"
     results = ""
     try:
        for channel in channels:
@@ -31,8 +31,9 @@ async def search(bot, message):
           buttons = []
           for movie in movies: 
               buttons.append([InlineKeyboardButton(movie['title'], callback_data=f"recheck_{movie['id']}")])
-          msg = await message.reply_photo(photo="https://telegra.ph/file/cf6706158b0bfaf436f54.jpg",
-                                          caption="<b><I>I Couldn't find anything related to Your Query😕.\nDid you mean any of these?</I></b>", 
+          msg = await message.reply_photo(photo="https://graph.org/file/202fa1a961a9c064059b7.jpg",
+                                          caption="<b><I>Sᴘᴇʟʟɪɴɢ Mɪsᴛᴀᴋᴇ Bʀᴏ ‼️
+Dᴏɴ'ᴛ Wᴏʀʀʏ 😊, Cʜᴏᴏsᴇ Tʜᴇ Cᴏʀʀᴇᴄᴛ Oɴᴇ Bᴇʟᴏᴡ👇</I></b>", 
                                           reply_markup=InlineKeyboardMarkup(buttons))
        else:
           msg = await message.reply_text(text=head+results, disable_web_page_preview=True)
@@ -57,7 +58,7 @@ async def recheck(bot, update):
     id      = update.data.split("_")[-1]
     query   = await search_imdb(id)
     channels = (await get_group(update.message.chat.id))["channels"]
-    head    = "<u>I Have Searched Movie With Wrong Spelling But Take care next time 👇\n\nPowered By </u> <b><I>@CyniteBackup</I></b>\n\n"
+    head    = "<u>I Have Searched Movie With Wrong Spelling But Take care next time 👇\n\nPowered By </u> <b><I>@Post_Finder_Ro_Bot</I></b>\n\n"
     results = ""
     try:
        for channel in channels:
