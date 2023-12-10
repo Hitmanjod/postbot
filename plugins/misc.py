@@ -7,12 +7,12 @@ async def start(bot, message):
     await add_user(message.from_user.id, message.from_user.first_name)
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('➕ Aᴅᴅ Tᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/Post_Finder_Ro_Bot?startgroup=true')
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('➕ Aᴅᴅ Tᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'https://t.me/PostSearchrobot?startgroup=true')
                              ],[
                             InlineKeyboardButton("🛠️ Hᴇʟᴘ 🛠️", callback_data="misc_help"),
                             InlineKeyboardButton("🎛 Aʙᴏᴜᴛ 🎛", callback_data="misc_about")
                              ],[
-                            InlineKeyboardButton("📯 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📯", url="https://t.me/Sujan_BotZ")]]))  
+                            InlineKeyboardButton("📯 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📯", url="https://t.me/iMediaUniverse")]]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
     await message.reply(text=script.HELP, 
@@ -49,12 +49,12 @@ async def misc(bot, update):
     if data=="home":
        await update.message.edit(text=script.START.format(update.from_user.mention),
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('➕ Aᴅᴅ Tᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/Post_Finder_Ro_Bot?startgroup=true')
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('➕ Aᴅᴅ Tᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'https://t.me/PostSearchrobot?startgroup=true')
                                                   ],[
                                               InlineKeyboardButton("🛠️ Hᴇʟᴘ 🛠️", callback_data="misc_help"),              
                                               InlineKeyboardButton("🎛 Aʙᴏᴜᴛ 🎛", callback_data="misc_about")
                                                   ],[
-                                              InlineKeyboardButton("📯 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📯", url="https://t.me/Sujan_BotZ")]]))
+                                              InlineKeyboardButton("📯 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📯", url="https://t.me/iMediaUniverse")]]))
     elif data=="help":
        await update.message.edit(text=script.HELP, 
                                  disable_web_page_preview=True,
