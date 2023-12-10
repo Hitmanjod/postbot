@@ -56,7 +56,5 @@ async def misc(bot, update):
     elif data=="about":
         await update.message.edit(text=script.ABOUT.format((await bot.get_me()).mention), 
                                   disable_web_page_preview=True,
-                                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Back", callback_data="misc_home")
-                                               ],[
-                                               InlineKeyboardButton("Updates Channel", url="https://t.me/Sujan_BotZ")]]))
+                                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Back", callback_data="misc_home")]]))
          
