@@ -49,7 +49,7 @@ async def recheck(bot, update):
     try:      
        typed = update.message.reply_to_message.from_user.id
     except:
-       return await update.message.delete(2)       
+       return await update.message.delete(300)       
     if clicked != typed:
        return await update.answer("That's not for you! 👀", show_alert=True)
 
@@ -79,7 +79,7 @@ async def request(bot, update):
     try:      
        typed = update.message.reply_to_message.from_user.id
     except:
-       return await update.message.delete()       
+       return await update.message.delete(300)       
     if clicked != typed:
        return await update.answer("That's not for you! 👀", show_alert=True)
 
