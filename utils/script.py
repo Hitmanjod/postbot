@@ -9,7 +9,7 @@ class script(object):
 
 ❂ ᴛʏᴘᴇ /verify ɪɴ ɢʀᴏᴜᴘ.
 
-❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ 👉 @Sujan_Bots 👈
+❂ ᴡᴀɪᴛ ᴜɴᴛɪʟ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ ɪꜱ ᴠᴇʀɪꜰɪᴇᴅ ʙʏ 👉 @iMediaUniverse 👈
 
 ❂ ᴀꜰᴛᴇʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜱᴇɴᴅ /connect ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
 
@@ -37,10 +37,10 @@ class script(object):
 ❂ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ʟɪꜱᴛ ᴡɪᴛʜ
 /connections
 
-✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ 👉 @Sujan_BotZ 👈 .
+✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✨ 👉 @iMediaUniverse 👈 .
 """
 
-    ABOUT = """Created By @Sujan_Bots
+    ABOUT = """Created By @iMediaUniverse
 
 ✯ Mʏ Nᴀᴍᴇ:  {}
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
