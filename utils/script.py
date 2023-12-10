@@ -1,8 +1,7 @@
 class script(object):
-    START = """**Hello {} 🤟**
+    START = """**ʜᴇʟʟᴏ {} 🤟**
    
-I am **Channel Filter Bot**.I am best Channel Link Search Bot! 
-I Will filter your channel posts automatically and send it in your group chat when Someone search it."""
+ɪ ᴀᴍ ᴄʜᴀɴɴᴇʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ.ɪ ᴀᴍ ʙᴇꜱᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ!  ɪ ᴡɪʟʟ ꜰɪʟᴛᴇʀ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴘᴏꜱᴛꜱ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ᴡʜᴇɴ ꜱᴏᴍᴇᴏɴᴇ ꜱᴇᴀʀᴄʜ ɪᴛ."""
 
     HELP = """‼️  ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ  ‼️
 
