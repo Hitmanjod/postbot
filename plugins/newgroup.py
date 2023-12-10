@@ -10,7 +10,7 @@ async def new_group(bot, message):
     if bot_id in member:
        await add_group(group_id=message.chat.id, 
                        group_name=message.chat.title,
-                       user_name=message.from_user.first_name, 
+                       user_name=message.from_user.user_name, 
                        user_id=message.from_user.id, 
                        channels=[],
                        f_sub=False,
