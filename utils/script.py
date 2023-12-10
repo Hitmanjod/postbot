@@ -42,7 +42,7 @@ class script(object):
     ABOUT = """Powered By @Sujan_BotZ
 
 ✯ Mʏ Nᴀᴍᴇ:  {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Sujan_Ch'>Sujan</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Sujan_Bots'>Sujan</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://cloud.mongodb.com/'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: : <a href='https://heroku.com'>Heroku</a>"""
