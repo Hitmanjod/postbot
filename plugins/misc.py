@@ -8,8 +8,11 @@ async def start(bot, message):
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/Post_Finder_Ro_Bot?startgroup=true')
-            ],[InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
-                                                            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")]]))  
+                             ],[
+                            InlineKeyboardButton("🛠️ Hᴇʟᴘ", callback_data="misc_help"),
+                            InlineKeyboardButton("🎛 Aʙᴏᴜᴛ", callback_data="misc_about")
+                             ],[
+                            InlineKeyboardButton("📯 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/Sujan_BotZ")]]))  
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
     await message.reply(text=script.HELP, 
